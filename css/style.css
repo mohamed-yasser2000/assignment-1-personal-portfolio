@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+  margin: 0;
+  background-color: rgb(220, 223, 223);
+}
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.imges img {
+  width: 100%;
+}
+.tex-center {
+  text-align: center;
+}
+header {
+  background-color: #274a72;
+  color: white;
+  padding: 16px;
+}
+header p {
+  color: #558dce;
+}
+.btn {
+  padding: 7px;
+  border: 2px solid #416b9a;
+  border-radius: 15px;
+  /* margin: 2px; */
+  background-color: #315783;
+}
+a {
+  padding: 2px;
+  text-decoration: none;
+  color: white;
+}
+section {
+  background-color: white;
+}
+section .line-styl {
+  width: 95%;
+  height: 2px;
+  background-color: #3d75b6;
+  margin: auto;
+}
+section h2 {
+  color: #3d75b6;
+  padding: 10px;
+}
+section .cont-about .my-pohto {
+  width: 25%;
+  float: left;
+}
+section .cont-about .my-pohto img {
+  border-radius: 50%;
+  border: 2px solid #a4c7f0;
+  margin-top: 2px;
+  width: 100%;
+  /* padding: 10px; */
+}
+section .cont-about .about-text {
+  width: 75%;
+  padding: 15px;
+  float: left;
+}
+section .cont-about .about-text p {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.clear-fix {
+  clear: both;
+}
+.about-text button {
+  margin: 10px 0 0 30px;
+}
+.cont-about .about-text p br {
+  margin-top: 10px;
+}
+span {
+  color: #3d75b6;
+}
+
+section .pirant .card-skills {
+  width: 25%;
+  height: 150px;
+  background-color: rgb(234, 238, 246);
+  border-radius: 15px;
+  border: 5px solid white;
+  float: left;
+}
+section .pirant .card-skills p {
+  padding: 5px;
+}
+section .card-skills h3 {
+  /* margin-le: 5px; */
+  padding: 10px;
+}
+h3 {
+  color: #558dce;
+}
+.tachcrop h3 {
+  padding-top: 10px;
+}
+section .experience .ex-img {
+  width: 10%;
+  float: left;
+}
+section .experience .ex-img img {
+  padding: 30px;
+}
+
+section .experience {
+  width: 90%;
+  margin: 30px auto;
+  background-color: rgb(235, 238, 238);
+  border-radius: 15px;
+  border-left: 5px solid #3d75b6;
+}
+section .experience .tachcrop {
+  width: 90%;
+  float: left;
+  padding-left: 20px;
+}
+section .experience .cont {
+  padding: 20px;
+  margin-left: 20px;
+
+}
+section .color-conect {
+  background-color: #274a72;
+  border-radius: 15px;
+  color: white;
+  padding: 15px;
+}
+section .color-conect h2 {
+  color: white;
+  margin: 10px;
+  padding: 10px;
+}
+section .color-conect .line-styl {
+  background-color: white;
+}
+section .color-conect .contact {
+  padding: 15px;
+  margin: 10px;
+}
+footer {
+  text-align: center;
+  background-color: #142942;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
